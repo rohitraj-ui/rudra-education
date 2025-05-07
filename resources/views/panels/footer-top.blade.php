@@ -26,10 +26,8 @@
 
                 <div class="col-lg-5 col-md-5">
                     <div class="footer_widget">
-                        <img src="{{ asset('assets/img/logo/rudra-logo.png') }}" alt="rudra logo"
-                            class="img-fluid footer-logo">
-                        <h4 class="extream my-3">We connect students and professionals with institutions that match
-                            their goals.</h4>
+                        <img src="{{ asset('assets/img/logo/rudra-logo.png') }}" alt="rudra logo" class="img-fluid footer-logo">
+                        <h4 class="extream my-3">We connect students and professionals with institutions that match their goals.</h4>
                     </div>
                 </div>
 
@@ -40,9 +38,8 @@
                             <div class="footer_widget">
                                 <h4 class="widget_title">Useful Links</h4>
                                 <ul class="footer-menu">
-                                    <li><a href="#"> Blogs </a></li>
-                                    <li><a href="#"> Faqs </a></li>
-                                    <li><a href="/about-us"> About Us </a></li>
+                                    <li><a href="/blogs"> Blogs </a></li>
+                                    <li><a href="/faqs"> Faqs </a></li>
                                     <li><a href="/contact-us"> Contact Us </a></li>
                                     <li><a href="#"> Privacy Policy </a></li>
                                     <li><a href="#"> Terms & Conditions</a></li>
@@ -54,10 +51,11 @@
                             <div class="footer_widget">
                                 <h4 class="widget_title">Other Links</h4>
                                 <ul class="footer-menu">
+                                    <li><a href="/about-us"> About Us </a></li>
                                     <li><a href="/wilp-program"> Wilp Program </a></li>
                                     <li><a href="/credit-transfer"> Credit Transfer </a></li>
                                     <li><a href="/study-abroad"> Study Abroad </a></li>
-                                    <li><a href="#">Career<span class="new">Hiring</span></a></li>
+                                    <li><a href="/career">Career<span class="new">Hiring</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,8 +83,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12 text-center">
-                    <p class="mb-0"> Copyright © 2025 | All Rights reserved by Rudra Education | Designed & Developed
-                        by
+                    <p class="mb-0"> 
+                        Copyright © 2025 | All Rights reserved by Rudra Education | Designed & Developed by
                         <a href="https://www.edtechinnovate.com/"> Edtech Innovate Pvt. Ltd. </a>
                     </p>
                 </div>

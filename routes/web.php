@@ -32,6 +32,18 @@ Route::get('/wilp-program', function () {
 Route::get('/study-abroad', function () {
     return view('frontend-content/study-abroad');
 })->name('study-abroad');
+Route::get('/career', function () {
+    return view('frontend-content/career');
+})->name('career');
+Route::get('/blogs', function () {
+    return view('frontend-content/blogs');
+})->name('blogs');
+Route::get('/blog-details', function () {
+    return view('frontend-content/blog-details');
+})->name('blog-details');
+Route::get('/faqs', function () {
+    return view('frontend-content/faqs');
+})->name('faqs');
 
 
 Route::middleware([
